@@ -12,14 +12,14 @@ namespace TestTaxiFareML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"C:\Users\Umkamaks\AppData\Roaming\MetaQuotes\Terminal\36A64B8C79A6163D85E6173B54096685\MQL5\Files\mt5export.csv";
-        private static string MODEL_FILEPATH = @"../../../../TestTaxiFareML.Model/MLModel.zip";
+      //  private static string TRAIN_DATA_FILEPATH = @"C:\Users\Umkamaks\AppData\Roaming\MetaQuotes\Terminal\36A64B8C79A6163D85E6173B54096685\MQL5\Files\mt5export.csv";
+      //  private static string MODEL_FILEPATH = @"../../../../TestTaxiFareML.Model/MLModel.zip";
 
         // Create MLContext to be shared across the model creation workflow objects 
         // Set a random seed for repeatable/deterministic results across multiple trainings.
         private static MLContext mlContext = new MLContext(seed: 1);
 
-        public static void CreateModel()
+        public static void CreateModel(string TRAIN_DATA_FILEPATH, string MODEL_FILEPATH)
         {
             // Load Data
             IDataView trainingDataView = mlContext.Data.LoadFromTextFile<ModelInput>(

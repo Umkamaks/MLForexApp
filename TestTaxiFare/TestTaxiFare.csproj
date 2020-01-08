@@ -10,10 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Csv" Version="1.0.53" />
     <PackageReference Include="Microsoft.ML" Version="1.4.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TestTaxiFareML.ConsoleApp\TestTaxiFareML.ConsoleApp.csproj" />
     <ProjectReference Include="..\TestTaxiFareML.Model\TestTaxiFareML.Model.csproj" />
   </ItemGroup>
 

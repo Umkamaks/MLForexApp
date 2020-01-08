@@ -16,20 +16,20 @@ namespace TestTaxiFareML.ConsoleApp
         static void Main(string[] args)
         {
             // Create single instance of sample data from first line of dataset for model input
-            ModelInput sampleData = CreateSingleDataSample(DATA_FILEPATH);
+            //ModelInput sampleData = CreateSingleDataSample(DATA_FILEPATH);
 
-            // Make a single prediction on the sample data and print results
-            ModelOutput predictionResult = ConsumeModel.Predict(sampleData);
+            //// Make a single prediction on the sample data and print results
+            //ModelOutput predictionResult = ConsumeModel.Predict(sampleData);
 
-            Console.WriteLine("Using model to make single prediction -- Comparing actual CLOSE with predicted CLOSE from sample data...\n\n");
-            Console.WriteLine($"DATE: {sampleData.DATE}");
-            Console.WriteLine($"TIME: {sampleData.TIME}");
-            Console.WriteLine($"MA: {sampleData.MA}");
-            Console.WriteLine($"RSI: {sampleData.RSI}");
-            Console.WriteLine($"Volumes: {sampleData.Volumes}");
-            Console.WriteLine($"\n\nActual CLOSE: {sampleData.CLOSE} \nPredicted CLOSE: {predictionResult.Score}\n\n");
-            Console.WriteLine("=============== End of process, hit any key to finish ===============");
-            Console.ReadKey();
+            //Console.WriteLine("Using model to make single prediction -- Comparing actual CLOSE with predicted CLOSE from sample data...\n\n");
+            //Console.WriteLine($"DATE: {sampleData.DATE}");
+            //Console.WriteLine($"TIME: {sampleData.TIME}");
+            //Console.WriteLine($"MA: {sampleData.MA}");
+            //Console.WriteLine($"RSI: {sampleData.RSI}");
+            //Console.WriteLine($"Volumes: {sampleData.Volumes}");
+            //Console.WriteLine($"\n\nActual CLOSE: {sampleData.CLOSE} \nPredicted CLOSE: {predictionResult.Score}\n\n");
+            //Console.WriteLine("=============== End of process, hit any key to finish ===============");
+            //Console.ReadKey();
         }
 
         // Change this code to create your own sample data

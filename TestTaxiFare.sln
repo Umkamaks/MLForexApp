@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTaxiFareML.Model", "Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTaxiFareML.ConsoleApp", "TestTaxiFareML.ConsoleApp\TestTaxiFareML.ConsoleApp.csproj", "{8B562CF6-CA7F-454C-A12A-A9DF9DED124E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafPredict", "GrafPredict\GrafPredict.csproj", "{71B32F41-58B8-449F-82C2-1C0445290177}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8B562CF6-CA7F-454C-A12A-A9DF9DED124E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B562CF6-CA7F-454C-A12A-A9DF9DED124E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B562CF6-CA7F-454C-A12A-A9DF9DED124E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B32F41-58B8-449F-82C2-1C0445290177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B32F41-58B8-449F-82C2-1C0445290177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B32F41-58B8-449F-82C2-1C0445290177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B32F41-58B8-449F-82C2-1C0445290177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
